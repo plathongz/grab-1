@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GRAB - Musician</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bulma-0.2.3/css/bulma.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/range_slider.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">	
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+</head>
+<body>
+<div class="columns header_shadow">
+	<div class="column padding-top">
+	    <div class="logo">GRAB</div>
+	    <div class="columns is-mobile padding-top">
+		  <div class="column is-half is-offset-one-quarter">
+		  	 <nav class="level">
+			  <p class="level-item has-text-centered">
+			    <a class="link is-info" href="index.html">HOME</a>
+			  </p>
+			  <p class="level-item has-text-centered">
+			    <a class="link is-info active" href="search.html">SEARCH</a>
+			  </p>
+			  <p class="level-item has-text-centered">
+			    <a class="link is-info" href="profile.html">PROFILE</a>
+			  </p>
+			  <p class="level-item has-text-centered">
+			    <a class="link is-info"> <i class="fa fa-user" aria-hidden="true"></i> Plathong T</a>
+			  </p>
+			  <p class="level-item has-text-centered">
+			    <a class="link is-info"> <i class="fa fa-bell-o" aria-hidden="true"></i> 1</a>
+			  </p>
+			 </nav>
+		  </div>
+		</div>
+	</div> 
+</div>
+
+<div class="container padding-top">
+<h2 class="title is-2 header_text">Mixed Song</h2>
+	<div class="columns is-mobile">
+	  <div class="column">
+	    <figure class="image">
+		  <img src="http://placehold.it/128x128" class="img-circle">
+		</figure>
+	  </div>
+	  <div class="column">
+	    <figure class="image">
+		  <img src="http://placehold.it/128x128" class="img-circle">
+		</figure>
+	  </div>
+	  <div class="column">
+	    <figure class="image">
+		  <img src="http://placehold.it/128x128" class="img-circle">
+		</figure>
+	  </div>
+	  <div class="column">
+	    <figure class="image">
+		  <img src="http://placehold.it/480x480" class="img-circle">
+		</figure>
+	  </div>
+	  <div class="column">
+	  <a href="#">
+	    <figure class="image">
+		  <img src="http://placehold.it/480x480" class="img-circle">
+		  <div class="increse-artist"><i class="fa fa-plus medium-icon-size" aria-hidden="true"></i></div>
+		</figure>
+		</a>		
+	  </div>
+	</div>
+
+	<div class="columns padding-top">
+		<div class="column">
+			<p class="control">
+				<span class="select is-medium full-width">
+				    <select class="full-width">
+					    <option>Genre</option>
+					    <option>Voice</option>
+					    <option>Guitar</option>
+					    <option>Bass</option>
+					</select>
+			    </span>
+			</p>
+		</div>
+		<div class="column">
+		<p class="control has-icon has-icon-right">
+			<input class="input is-medium" type="text" placeholder="name song" disabled>
+		</p>
+		</div>
+	</div>
+
+	<div class="columns padding-top">
+		<div class="column">
+			<div class="btn">
+				<a href="#"><i class="fa fa-play medium-icon-size btn" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-pause medium-icon-size btn" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="columns">
+		<div class="column is-1 title-range">
+		VOICE :
+		</div>
+		<div class="column">
+			<div id='volume1' class='slider'>
+			  <output class='slider-output'>50</output>
+			  <div class='slider-track'>
+			    <div class='slider-thumb'></div>
+			    <div class='slider-level'></div>
+			  </div>
+			  <input class='slider-input' type='range' value='50' min='0' max='100' />
+			</div>
+		</div>
+	</div>
+		<div class="columns">
+		<div class="column is-1 title-range">
+		BASS :
+		</div>
+		<div class="column">
+			<div id='volume2' class='slider'>
+			  <output class='slider-output'>50</output>
+			  <div class='slider-track'>
+			    <div class='slider-thumb'></div>
+			    <div class='slider-level'></div>
+			  </div>
+			  <input class='slider-input' type='range' value='50' min='0' max='100' />
+			</div>
+		</div>
+	</div>
+		<div class="columns">
+		<div class="column is-1 title-range">
+		Guitar :
+		</div>
+		<div class="column">
+			<div id='volume3' class='slider'>
+			  <output class='slider-output'>50</output>
+			  <div class='slider-track'>
+			    <div class='slider-thumb'></div>
+			    <div class='slider-level'></div>
+			  </div>
+			  <input class='slider-input' type='range' value='50' min='0' max='100' />
+			</div>
+		</div>
+	</div>
+		<div class="columns">
+		<div class="column is-1 title-range">
+		Drum :
+		</div>
+		<div class="column">
+			<div id='volume4' class='slider'>
+			  <output class='slider-output'>50</output>
+			  <div class='slider-track'>
+			    <div class='slider-thumb'></div>
+			    <div class='slider-level'></div>
+			  </div>
+			  <input class='slider-input' type='range' value='50' min='0' max='100' />
+			</div>
+		</div>
+	</div>
+
+
+	<div class="blog-btn-record">
+		<button type="submit" class="btn-record">
+			<i class="fa fa-microphone icon-record" aria-hidden="true"></i>
+		</button>
+	</div>
+</div>
+
+<script src="js/range_slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('../font-awesome-4.7.0/css/font-awesome.css');
+
+html{
+	background: #fff;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+i{
+	padding: 5px;
+}
+.logo{
+	font-family: 'Roboto', sans-serif;
+	color: #730915;
+	text-align: center;
+	font-size: 36px; 
+}
+.icon-color-black{
+	color: #000!important;
+}
+
+/* select */
+.select select{
+	max-width: 100% !important;
+    width: 100% !important;
+}
+
+.full-width{
+	max-width: 100% !important;
+    width: 100% !important;
+}
+
+.header_shadow{
+	background-color: white;
+	box-shadow: 0 0 10px 0 #dbdbdb;
+}
+.padding-top{
+	padding-top: 20px;
+}
+.link{
+	color: #4a4a4a;
+}
+.active{
+	color: #730915;
+	font-weight: bold; 
+}
+.bg-home{
+	background: url("http://fullhdpictures.com/wp-content/uploads/2016/03/Great-Blur-Wallpaper.jpg");
+	width: 100%;
+}
+.load_more{
+	text-align: center;
+}
+.medium-icon-size{
+	font-size: 20px;
+}
+.header_text{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.increse-artist{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.btn{
+	padding: 10px;
+	text-align: center;
+	color: #363636;
+}
+.title-range{
+	margin-top: 2.5rem;
+}
+.blog-btn-record{
+	width: 80px;
+	margin: 0 auto;
+}
+.btn-record{
+	width: 80px;
+	height: 80px;
+	border: 5px solid #999;
+	border-radius: 50%;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.icon-record{
+	font-size: 36px;
+}
+.blog-profile{
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid #f0e2e2;
+	height: auto;
+}
+.width-img{
+	width: 70%!important;
+	margin:0 auto;
+}
+.bg-pink{
+	background: #f0e2e2;
+}
